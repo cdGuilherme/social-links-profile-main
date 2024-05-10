@@ -52,6 +52,10 @@ figure, blockquote, dl, dd {
 body {
   background-color: var(--off-black);
   color: var(--white);
+}
+
+main {
+  min-height: 100svh;
 
   /* center card */
   display: flex;
@@ -98,27 +102,30 @@ p {
   font-size: 0.875rem;
 }
 
-button {
-  font-family: inherit;
+.socials {
+  display: grid;
+  row-gap: 0.75rem;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
   font-size: 0.875rem;
+  color: var(--white);
+  background-color: var(--grey);
   width: 100%;
   height: 45px;
-  background-color: var(--grey);
-  color: var(--white);
-  border: none;
   border-radius: 0.5rem;
-  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition-duration: 0.1s;
 }
 
-button:hover {
+a:hover {
   background-color: var(--green);
   color: var(--off-black);
   cursor: pointer;
-}
-
-button:last-child {
-  margin-bottom: 0;
 }
 
 .location {
