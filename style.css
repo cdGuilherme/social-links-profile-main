@@ -1,8 +1,15 @@
+/* CSS Reset: https://piccalil.li/blog/a-more-modern-css-reset/ */
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin: 0;
 }
 
 :root {
@@ -43,16 +50,43 @@
 }
 
 body {
-  background-color: var(--dark-grey);
+  background-color: var(--off-black);
   color: var(--white);
+
+  /* center card */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
 }
 
 .card {
-  background-color: var(--grey);
+  width: 328px;
+  /* width: 384px; */
+  padding: 2rem;
+  background-color: var(--dark-grey);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
   border-radius: 100%;
+  width: 88px;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+button {
+  width: 100%;
+}
+
+.location {
+  color: var(--green);
 }
 
 .attribution {
