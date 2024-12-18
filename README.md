@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/social-links-profile-challenge--BW4ZHxrVC)
-- Live Site URL: [Live Site URL](https://nanikore0.github.io/social-links-profile-main/)
+- Live Site URL: [Live Site URL](https://cdguilherme.github.io/social-links-profile-main/)
 
 ## My process
 
@@ -53,5 +53,5 @@ With this project I was able to better understand concepts like the CSS Box Mode
 
 ## Author
 
-- Github - [nanikore](https://github.com/nanikore0)
-- Frontend Mentor - [@nanikore](https://www.frontendmentor.io/profile/nanikore0)
+- Github - [Guilherme Costa](https://github.com/cdGuilherme)
+- Frontend Mentor - [@cdGuilherme](https://www.frontendmentor.io/profile/cdGuilherme)
